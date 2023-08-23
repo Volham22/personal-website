@@ -3,7 +3,9 @@
     import Body from './components/Body.vue';
 </script>
 
-<template>
-    <Headers />
-    <Body />
+<template class="">
+    <div class="dark:bg-zinc-900">
+        <Headers />
+        <Body />
+    </div>
 </template>

@@ -1,13 +1,13 @@
 <template>
-    <header class="p-4 mx-auto bg-slate-100 px-auto my-1 rounded-sm">
+    <header class="p-4 mx-auto bg-slate-300 px-auto rounded-sm dark:bg-slate-800 shadow-md">
         <nav class="flex">
-            <section class="basis-1/4 text-left my-auto">
+            <section class="basis-1/3 text-left my-auto dark:text-gray-50">
                 Corentin MACHU
             </section>
-            <ul class="flex flex-row gap-2 basis-3/4">
-                <li class="border-none hover:border-solid rounded-md p-2 hover:shadow-md hover:scale-105 basis-1/3">Link</li>
-                <li class="border-none hover:border-solid rounded-md p-2 hover:shadow-md hover:scale-105 basis-1/3">Link</li>
-                <li class="border-none hover:border-solid rounded-md p-2 hover:shadow-md hover:scale-105 basis-1/3">Link</li>
+            <ul class="flex gap-6 basis-2/3">
+                <li class="transition border border-solid border-slate-200 dark:border-slate-700 rounded-md p-4 shadow-md basis-1/3 hover:scale-105 dark:text-gray-300">Link</li>
+                <li class="transition border border-solid border-slate-200 dark:border-slate-700 rounded-md p-4 shadow-md basis-1/3 hover:scale-105 dark:text-gray-300">Link</li>
+                <li class="transition border border-solid border-slate-200 dark:border-slate-700 rounded-md p-4 shadow-md basis-1/3 hover:scale-105 dark:text-gray-300">Link</li>
             </ul>
         </nav>
     </header>
