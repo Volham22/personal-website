@@ -5,37 +5,37 @@
 
     const exp_items = [
         {
-            "date": new Date(),
+            "date": new Date("February 1, 2023"),
             "title": "Teaching assistant YAKA/ACU",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+            "description": "Currently teaching first year student at EPITA helping them in their C, C++, Java and JavaScript assignments and notorious school projects like the Tiger compiler!",
         },
         {
-            "date": new Date(),
+            "date": new Date("September 1, 2022"),
             "title": "Parsec (Scille)",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+            "description": "Worked on parsec a zero-trust file sharing program within the Scille's developers team as an intern. I helped to migrate the client side codebase from Python to Rust.",
         },
         {
-            "date": new Date(),
-            "title": "Sogecap",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+            "date": new Date("September 1, 2020"),
+            "title": "Sogécap (Société Générale group)",
+            "description": "Automation of complex data handling and processing tasks (SQL, JavaScript) performed by an insurance company's beneficiary search team.",
         }
     ];
 
     const school_items = [
         {
-            "date": new Date(),
+            "date": new Date("September 1, 2021"),
             "title": "EPITA",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+            "description": "Computer science MSc majoring in Embedded System Safety and Security at EPITA Toulouse",
         },
         {
-            "date": new Date(),
+            "date": new Date("September 1, 2019"),
             "title": "DUT Informatique Orléans",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+            "description": "Studied computer science basics (algorithm, algebra, data structures etc....) in the institute of technology of Orléans",
         },
         {
-            "date": new Date(),
+            "date": new Date("September 1, 2016"),
             "title": "BAC S-SI",
-            "description": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..",
+            "description": "Augustin Thierry high school diploma with specialization in Engineering Sciences",
         },
     ];
 </script>
@@ -92,7 +92,7 @@
             <p class="px-4 lg:text-xl">
             Bubble is a work in progress
             compiler frontend for my own programming language
-            targetting LLVM.  Bubble is a minimal, low level and
+            targetting LLVM.  It's a minimal, low level and
             simple programming language, much like C. Its goal is
             to bring modern features like namespace and and ES like
             modules to a minimal language. The compiler is written in Rust and

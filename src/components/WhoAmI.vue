@@ -13,18 +13,16 @@
         <h2 class="text-4xl text-cyan-500">Who am I?</h2>
         <div class="flex lg:flex-row md:flex-row lg:py-4 py-4 flex-wrap lg:flex-nowrap md:flex-nowrap">
             <p class="lg:basis-1/2 md:basis-1/2 basis-3/4 mx-4 dark:text-gray-300 lg:text-xl">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-            convallis ac tortor quis consectetur. Vivamus tristique elit at
-            nulla scelerisque tincidunt. Morbi pulvinar, orci ac varius pulvinar,
-            odio quam gravida nisl, a vulputate nunc nisl sed justo. Curabitur
-            nec hendrerit augue. Aenean id ipsum eget libero fringilla
-            dignissim. Aliquam erat volutpat. Nullam consequat sollicitudin
-            mollis. Nullam malesuada vel orci eu mattis. Integer id justo ac tortor
-            pretium convallis. Sed pulvinar auctor metus et hendrerit. Phasellus
-            cursus dapibus purus, et fringilla est consectetur in. Vivamus
-            euismod neque magna, eget tristique augue gravida nec. Sed odio nisi,
-            vulputate ac quam id, iaculis mollis orci. Nulla porta tincidunt nisi,
-            in pulvinar nibh accumsan et.
+            Hello, I'm Corentin, a 22-year-old computer science student at
+            EPITA. I'm fueled by curiosity and ambition, spending my spare time
+            crafting projects to bring my ideas to life. My focus within EPITA's
+            Embedded System Safety and Security major revolves around low-level
+            programming, where I've cultivated strong technical skills. I'm also
+            engaged as a teaching assistant, supporting first-year students in computer science with
+            their <em>C/C++/Java</em> and <em>JavaScript</em> projects. This experience developed
+            my communication and technical abilities. Seeking
+            an end-of-studies internship in software engineering, I'm eager to
+            use my skills and passion into practical applications.
             </p>
             <div class="lg:columns-4 columns-1 lg:basis-1/2 md:basis-1/2">
                 <div v-for="skill in skills" class="container mx-auto p-2">
