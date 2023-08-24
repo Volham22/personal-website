@@ -12,7 +12,7 @@
     <article class="m-4">
         <h2 class="text-4xl text-cyan-500">Who am I?</h2>
         <div class="flex lg:flex-row md:flex-row lg:py-4 py-4 flex-wrap lg:flex-nowrap md:flex-nowrap">
-            <p class="lg:basis-1/2 md:basis-1/2 basis-3/4 mx-4 dark:text-gray-300">
+            <p class="lg:basis-1/2 md:basis-1/2 basis-3/4 mx-4 dark:text-gray-300 lg:text-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             convallis ac tortor quis consectetur. Vivamus tristique elit at
             nulla scelerisque tincidunt. Morbi pulvinar, orci ac varius pulvinar,
