@@ -14,7 +14,7 @@
                 <font-awesome-icon icon="fa-solid fa-envelope" class="w-16 h-8 text-white" />
             </a>
         </div>
-        <div class="italic text-center text-slate-700">
+        <div class="italic p-2 text-center text-slate-700">
             This website is server by <a href="#Raptor">raptor</a> HTTP server.
             Corentin Machu.
         </div>
