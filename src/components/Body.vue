@@ -91,12 +91,12 @@
             <Project title="Bubble" link="https://github.com/Volham22/raptor">
             <p class="px-4 lg:text-xl">
             Bubble is a work in progress
-            compiler frontend for my own programming language
-            targetting LLVM.  It's a minimal, low level and
+            compiler front end for my own programming language
+            targeting LLVM.  It's a minimal, low level and
             simple programming language, much like C. Its goal is
-            to bring modern features like namespace and and ES like
-            modules to a minimal language. The compiler is written in Rust and
-            use a LR(1) parser generator to parse its grammar.
+            to bring modern features like namespaces and ES like
+            modules to a C like language without reinventing the whole wheel.
+            The compiler is written in Rust and use a LR(1) parser generator to parse its grammar.
             </p>
             </Project>
         </section>
