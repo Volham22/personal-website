@@ -1,9 +1,6 @@
 <script setup lang="ts">
-    const properties = defineProps({
-        date: Date,
-        title: String,
-        description: String,
-    });
+    import { Item } from './Timeline.vue';
+    const properties = defineProps<Item>();
 </script>
 
 <template>

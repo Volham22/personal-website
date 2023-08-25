@@ -51,10 +51,10 @@
         </section>
         <section class="md:flex p-4 mx-auto flex-wrap md:flex-nowrap lg: flex-nowrap">
             <div class="m-4 basis-1/2">
-                <Timeline title="Expériences" :items=exp_items />
+                <Timeline title="Professional experiences" :items=exp_items />
             </div>
             <div class="m-4 basis-1/2">
-                <Timeline title="Formation" :items=school_items />
+                <Timeline title="Scholar" :items=school_items />
             </div>
         </section>
         <section class="p-4">
@@ -62,7 +62,7 @@
             <Project title="Raptor" link="https://github.com/Volham22/raptor">
                 <div class="flex flex-row flex-wrap lg:flex-nowrap px-4">
                     <figure class="w-full h-full lg:basis-1/4 py-4">
-                        <img class="lg:w-64 lg:h-64 w-48 h-48 mx-auto" src="raptor_transparent.png" alt="Raptor logo"/>
+                        <img class="lg:w-64 lg:h-64 w-48 h-48 mx-auto" src="/public/raptor_transparent.png" alt="Raptor logo"/>
                         <figcaption class="text-center">Raptor's logo</figcaption>
                     </figure>
                     <div class="lg:p-4 container mx-auto lg:basis-3/4">
@@ -82,8 +82,9 @@
                         runtime, Raptor is capable to handle an extensive
                         influx of concurrent requests, exceeding several
                         hundred, all while ensuring a good average latency
-                        of approximately 30 milliseconds. This website
-                        attests to Raptor's capabilities.
+                        of approximately 30 milliseconds. The server is not fully
+                        RFC compliant yet. I planned to use it to host this website
+                        once it's ready.
                         </p>
                     </div>
                 </div>

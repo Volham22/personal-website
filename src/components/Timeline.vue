@@ -1,10 +1,13 @@
 <script setup lang="ts">
     import TimelineItem from './TimelineItem.vue';
 
-    const properties = defineProps({
-        title: String,
-        items: { "date": Date, title: String, description: String }
-    });
+    export type Item = { date: Date, title: string, description: string }
+    export interface Props {
+        title: string,
+        items: Item[],
+    };
+
+    const properties = defineProps<Props>();
 </script>
 
 <template>

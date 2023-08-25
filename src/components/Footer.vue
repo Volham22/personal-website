@@ -15,8 +15,8 @@
             </a>
         </div>
         <div class="italic p-2 text-center text-slate-700">
-            This website is server by <a href="#Raptor">raptor</a> HTTP server.
-            Corentin Machu.
+            <!-- This website is server by <a href="#Raptor">raptor</a> HTTP server. -->
+            Corentin Machu
         </div>
     </footer>
 </template>
