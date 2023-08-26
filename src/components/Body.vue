@@ -51,14 +51,17 @@
         </section>
         <section class="md:flex p-4 mx-auto flex-wrap md:flex-nowrap lg: flex-nowrap">
             <div class="m-4 basis-1/2">
-                <Timeline title="Professional experiences" :items=exp_items />
+                <Timeline icon="fa-solid fa-briefcase" title="Professional experiences" :items=exp_items />
             </div>
             <div class="m-4 basis-1/2">
-                <Timeline title="Scholar" :items=school_items />
+                <Timeline icon="fa-solid fa-graduation-cap" title="Scholar" :items=school_items />
             </div>
         </section>
         <section class="p-2 md:p-4">
-            <h2 class="text-4xl text-cyan-500 my-2">Projects</h2>
+            <div class="flex">
+                <font-awesome-icon icon="fa-solid fa-list-check" class="text-cyan-500 text-4xl pr-2 my-auto text-center" />
+                <h2 class="text-4xl text-cyan-500 my-2">Projects</h2>
+            </div>
             <Project title="Raptor" link="https://github.com/Volham22/raptor">
                 <div class="flex flex-row flex-wrap lg:flex-nowrap md:px-4">
                     <figure class="w-full h-full lg:basis-1/4 pb-4">
@@ -66,7 +69,7 @@
                         <figcaption class="text-center">Raptor's logo</figcaption>
                     </figure>
                     <div class="lg:p-4 md:container mx-auto lg:basis-3/4">
-                        <p class="text-start lg:text-xl">
+                        <p class="text-start lg:text-xl prose-gray prose-a:text-blue-600 hover:prose-a:text-blue-500">
                         In my quest to enhance my
                         network programming skills and gain a comprehensive
                         understanding of HTTP/2, I embarked on a
@@ -83,14 +86,15 @@
                         influx of concurrent requests, exceeding several
                         hundred, all while ensuring a good average latency
                         of approximately 30 milliseconds. The server is not fully
-                        RFC compliant yet. I planned to use it to host this website
-                        once it's ready.
+                        RFC compliant yet but already pass a good portion of
+                        <a class="" href="https://github.com/summerwind/h2spec">h2spec</a>
+                        tests. This website is served by raptor.
                         </p>
                     </div>
                 </div>
             </Project>
             <Project title="Bubble" link="https://github.com/Volham22/raptor">
-            <p class="px-4 lg:text-xl">
+            <p class="px-4 lg:text-xl prose-gray prose-a:text-blue-600 hover:prose-a:text-blue-500">
             Bubble is a work in progress
             compiler front end for my own programming language
             targeting LLVM.  It's a minimal, low level and

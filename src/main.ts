@@ -11,7 +11,13 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 /* import specific icons */
-import { faUserSecret } from '@fortawesome/free-solid-svg-icons';
+import {
+    faUserSecret,
+    faListCheck,
+    faUserTie,
+    faBriefcase,
+    faGraduationCap
+} from '@fortawesome/free-solid-svg-icons';
 import { faGithub, faLinkedin  } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -20,6 +26,10 @@ library.add(faUserSecret);
 library.add(faGithub);
 library.add(faLinkedin);
 library.add(faEnvelope);
+library.add(faListCheck);
+library.add(faUserTie);
+library.add(faBriefcase);
+library.add(faGraduationCap);
 
 createApp(App)
     .component('font-awesome-icon', FontAwesomeIcon)

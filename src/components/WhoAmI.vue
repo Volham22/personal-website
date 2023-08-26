@@ -10,9 +10,12 @@
 
 <template>
     <article class="m-4">
-        <h2 class="text-4xl text-cyan-500">Who am I?</h2>
+        <div class="flex">
+            <font-awesome-icon icon="fa-solid fa-user-tie" class="text-cyan-500 text-4xl pr-2 my-auto text-center" />
+            <h2 class="text-4xl text-cyan-500">Who am I?</h2>
+        </div>
         <div class="flex lg:flex-row md:flex-row lg:py-4 py-4 flex-wrap lg:flex-nowrap md:flex-nowrap">
-            <p class="lg:basis-1/2 basis-3/4 mx-4 dark:text-gray-300 lg:text-xl">
+            <p class="lg:basis-1/2 basis-3/4 mx-4 dark:text-gray-300 lg:text-xl prose-gray prose-a:text-blue-600 hover:prose-a:text-blue-500">
             Hello, I'm Corentin, a 22-year-old computer science student at
             EPITA. I'm fueled by curiosity and ambition, spending my spare time
             crafting projects to bring my ideas to life. My focus within EPITA's
