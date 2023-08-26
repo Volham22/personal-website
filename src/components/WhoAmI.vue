@@ -12,7 +12,7 @@
     <article class="m-4">
         <h2 class="text-4xl text-cyan-500">Who am I?</h2>
         <div class="flex lg:flex-row md:flex-row lg:py-4 py-4 flex-wrap lg:flex-nowrap md:flex-nowrap">
-            <p class="lg:basis-1/2 md:basis-1/2 basis-3/4 mx-4 dark:text-gray-300 lg:text-xl">
+            <p class="lg:basis-1/2 basis-3/4 mx-4 dark:text-gray-300 lg:text-xl">
             Hello, I'm Corentin, a 22-year-old computer science student at
             EPITA. I'm fueled by curiosity and ambition, spending my spare time
             crafting projects to bring my ideas to life. My focus within EPITA's
@@ -24,10 +24,10 @@
             an end-of-studies internship in software engineering, I'm eager to
             use my skills and passion into practical applications.
             </p>
-            <div class="lg:columns-4 columns-1 lg:basis-1/2 md:basis-1/2">
+            <div class="flex flex-wrap lg:basis-1/2 basis-1/4 lg:flex-nowrap mx-auto">
                 <div v-for="skill in skills" class="container mx-auto p-2">
-                    <div class="border border-solid dark:border-slate-800 rounded-lg shadow-md min-w-2 max-w-2 p-2">
-                        <img class="w-32 h-32 sm:mx-auto" :src=skill.image />
+                    <div class="border border-solid dark:border-slate-800 rounded-lg shadow-md p-2">
+                        <img class="w-16 h-16 lg:w-32 lg:h-32 mx-auto" :src=skill.image />
                         <h3 class="my-auto px-5 text-center text-gray-500 italic">{{ skill.name }}</h3>
                     </div>
                 </div>

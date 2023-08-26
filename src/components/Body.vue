@@ -41,7 +41,7 @@
 </script>
 
 <template>
-    <div class="divide divide-solid divide-y px-12">
+    <div class="divide divide-solid divide-y md:px-12 px-3">
         <section class="container mx-auto py-6 w-full">
             <h1 class="lg:text-9xl md:text-9xl text-6xl text-center dark:text-gray-50 px-2">Corentin Machu</h1>
             <p class="text-center text-2xl dark:text-teal-400 text-teal-600 italic">Software engineering student at EPITA</p>
@@ -57,15 +57,15 @@
                 <Timeline title="Scholar" :items=school_items />
             </div>
         </section>
-        <section class="p-4">
-            <h2 class="text-4xl text-cyan-500 my-4">Projects</h2>
+        <section class="p-2 md:p-4">
+            <h2 class="text-4xl text-cyan-500 my-2">Projects</h2>
             <Project title="Raptor" link="https://github.com/Volham22/raptor">
-                <div class="flex flex-row flex-wrap lg:flex-nowrap px-4">
-                    <figure class="w-full h-full lg:basis-1/4 py-4">
+                <div class="flex flex-row flex-wrap lg:flex-nowrap md:px-4">
+                    <figure class="w-full h-full lg:basis-1/4 pb-4">
                         <img class="lg:w-64 lg:h-64 w-48 h-48 mx-auto" src="/public/raptor_transparent.png" alt="Raptor logo"/>
                         <figcaption class="text-center">Raptor's logo</figcaption>
                     </figure>
-                    <div class="lg:p-4 container mx-auto lg:basis-3/4">
+                    <div class="lg:p-4 md:container mx-auto lg:basis-3/4">
                         <p class="text-start lg:text-xl">
                         In my quest to enhance my
                         network programming skills and gain a comprehensive
