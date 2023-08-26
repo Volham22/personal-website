@@ -65,7 +65,7 @@
             <Project title="Raptor" link="https://github.com/Volham22/raptor">
                 <div class="flex flex-row flex-wrap lg:flex-nowrap md:px-4">
                     <figure class="w-full h-full lg:basis-1/4 pb-4">
-                        <img class="lg:w-64 lg:h-64 w-48 h-48 mx-auto" src="/public/raptor_transparent.png" alt="Raptor logo"/>
+                        <img class="lg:w-64 lg:h-64 w-48 h-48 mx-auto" src="/raptor_transparent.png" alt="Raptor logo"/>
                         <figcaption class="text-center">Raptor's logo</figcaption>
                     </figure>
                     <div class="lg:p-4 md:container mx-auto lg:basis-3/4">
